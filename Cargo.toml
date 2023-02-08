@@ -1,11 +1,11 @@
 [package]
-name = "blog_os"
+name = "rust_os"
 version = "0.1.0"
 authors = ["Sullivan Myer <slucasmyer@icloud.com>"]
 edition = "2021"
 
 [dependencies]
-bootloader = "0.10.7"
+bootloader = "0.9.23"
 
 [profile.dev]
 panic = "abort"
